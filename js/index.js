@@ -46,7 +46,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //----------------//
 const nav = document.querySelectorAll('nav a');
 
-nav.forEach(element => element.getElementsByClassName.color = "gray");
+nav.forEach(element => element.getElementsByClassName.color = "green");
 
 nav[0].textContent = siteContent.nav["nav-item-1"];
 nav[1].textContent = siteContent.nav["nav-item-2"];
@@ -54,6 +54,13 @@ nav[2].textContent = siteContent.nav["nav-item-3"];
 nav[3].textContent = siteContent.nav["nav-item-4"];
 nav[4].textContent = siteContent.nav["nav-item-5"];
 nav[5].textContent = siteContent.nav["nav-item-6"];
+
+nav[0].style.color = "green";
+nav[1].style.color = "green";
+nav[2].style.color = "green";
+nav[3].style.color = "green";
+nav[4].style.color = "green";
+nav[5].style.color = "green";
 
 const navLogo = document.querySelector("#logo-img");
 navLogo.src = siteContent.nav["img-src"];
